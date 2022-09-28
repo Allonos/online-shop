@@ -1,0 +1,233 @@
+.profile {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.info-container {
+  margin-top: 80px;
+}
+
+.account-info {
+  width: 1000px;
+  background-color: white;
+  color: black;
+  position: relative;
+  right: 100px;
+  border-radius: 12px;
+}
+
+.account-info[type='password'] {
+  width: 500px;
+  background-color: white;
+  color: black;
+  position: relative;
+  right: 200px;
+  border-radius: 12px;
+  height: 300px;
+  top: 150px;
+}
+
+.account-info-content {
+  display: flex;
+}
+
+.header h1 {
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.info-content {
+  margin-left: 15px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  width: 520px;
+}
+
+.label {
+  color: var(--almost-black-color);
+  display: inline;
+}
+
+.input {
+  border: 1px solid #c3c3c3a8;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.change {
+  color: rgb(0, 94, 255);
+  font-weight: 500;
+  cursor: pointer;
+  display: inline;
+}
+
+.profile-photo {
+  margin-left: 75px;
+  background-color: #c3c3c3a8;
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: 150px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.profile-photo:hover {
+  background-color: #b9b9b9;
+}
+
+.profile-pic {
+  font-size: 70px;
+  position: relative;
+  left: 115px;
+  top: 60px;
+}
+
+@media (max-width: 1520px) {
+  .account-info {
+    right: 0;
+  }
+}
+
+@media (max-width: 1350px) {
+  .account-info {
+    width: 800px;
+  }
+
+  .info-content {
+    width: 420px;
+  }
+
+  .input {
+    width: 400px;
+  }
+
+  .profile-photo {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .account-info[type='password'] {
+    right: 100px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .account-info {
+    width: 600px;
+  }
+
+  .account-info-content {
+    flex-direction: column-reverse;
+  }
+
+  .profile-photo {
+    top: 50px;
+  }
+
+  .header h1 {
+    position: relative;
+    bottom: 210px;
+    left: 10px;
+    width: 190px;
+  }
+}
+
+@media (max-width: 950px) {
+  .account-info[type='password'] {
+    right: 50px;
+  }
+}
+
+@media (max-width: 850px) {
+  .account-info {
+    width: 400px;
+  }
+
+  .info-content {
+    width: 320px;
+  }
+
+  .input {
+    width: 300px;
+  }
+
+  .account-info[type='password'] {
+    right: 0;
+  }
+}
+
+@media (max-width: 680px) {
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .account-info {
+    width: 500px;
+  }
+
+  .info-content {
+    width: 450px;
+  }
+
+  .input {
+    width: 400px;
+  }
+
+  .profile-photo {
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 730px) {
+  .account-info[type='password'] {
+    width: 400px;
+  }
+}
+
+@media (max-width: 680px) {
+  .account-info[type='password'] {
+    width: 500px;
+    margin-top: 70px;
+    top: 0;
+  }
+}
+
+@media (max-width: 530px) {
+  .account-info {
+    width: 300px;
+  }
+
+  .info-content {
+    width: 250px;
+  }
+
+  .input {
+    width: 250px;
+  }
+
+  .profile-photo {
+    width: 200px;
+    margin-left: 45px;
+  }
+
+  .profile-pic {
+    left: 70px;
+  }
+
+  .account-info[type='password'] {
+    width: 400px;
+    margin-top: 50px;
+  }
+}

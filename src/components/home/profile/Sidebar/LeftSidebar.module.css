@@ -1,0 +1,155 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.left-sidebar {
+  background-color: white;
+  color: black;
+  width: 300px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  height: 500px;
+  margin-top: 70px;
+}
+
+@media (max-width: 1520px) {}
+
+.profile-photo {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header p {
+  color: var(--almost-black-color);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.account-settings {
+  margin-top: 25px;
+}
+
+.account-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  transition: background-color .3s;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.account-container:hover {
+  background-color: #c3c3c3a8;
+}
+
+.icon {
+  font-size: 25px;
+  margin-right: 10px;
+  color: var(--almost-black-color);
+  padding-left: 5px;
+}
+
+.account-container p {
+  font-weight: 600;
+  color: black;
+}
+
+.logout-icon {
+  padding-left: 10px;
+  font-size: 30px;
+  color: var(--almost-black-color);
+}
+
+.logout {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: .3s;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin-top: 9px;
+}
+
+.logout:hover {
+  background-color: #c3c3c3a8;
+}
+
+.logout-btn {
+  border: none;
+  background-color: transparent;
+  padding-left: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 1160px) {
+  .left-sidebar {
+    width: 200px;
+    height: 532px;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .header p {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 680px) {
+  .left-sidebar {
+    width: 500px;
+    height: 300px;
+  }
+
+  .header {
+    flex-direction: row;
+  }
+
+  .account-settings {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .account-container {
+    padding-left: 10px;
+    padding-right: 25px;
+  }
+
+  .logout {
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 530px) {
+  .left-sidebar {
+    width: 300px;
+  }
+
+  .account-settings {
+    margin-top: 0;
+  }
+
+  .logout {
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .account-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}

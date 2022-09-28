@@ -1,0 +1,243 @@
+.loginContainer {
+  margin-top: 153px;
+  width: 700px;
+  background-color: white;
+  color: black;
+  margin-left: 425px;
+  padding-bottom: 30px;
+  margin-bottom: 153px;
+  border-radius: 12px;
+}
+
+.header h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.header p {
+  font-size: 13px;
+  color: #878787;
+  text-align: center;
+}
+
+.nameInputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  position: relative;
+}
+
+.firstInput {
+  margin-left: 10px;
+}
+
+.firstInput input {
+  width: 200px;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #878787;
+}
+
+.mail {
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.lock {
+  font-size: 30px;
+  top: 10px;
+  position: relative;
+}
+
+.loginWithOther {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.google {
+  font-size: 20px;
+  margin-left: 110px;
+}
+
+.facebook {
+  font-size: 20px;
+  color: #006aff;
+  margin-left: 110px;
+}
+
+.inputs {
+  margin-top: 30px;
+  margin-left: 145px;
+}
+
+.secondInput {
+  margin-bottom: 15px;
+}
+
+.secondInput input {
+  width: 415px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #878787;
+}
+
+.withSth {
+  display: flex;
+  align-items: center;
+  margin-left: 145px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  padding-bottom: 7px;
+  width: 400px;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.withSth p {
+  margin-left: 10px;
+}
+
+.orP {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  margin-left: 145px;
+}
+
+.or p {
+  text-align: center;
+}
+
+.firstOr {
+  width: 190px;
+  height: 2px;
+  background-color: #c7c7c7;
+  margin-right: 10px;
+}
+
+.secondOr {
+  width: 190px;
+  height: 2px;
+  background-color: #c7c7c7;
+  margin-left: 10px;
+}
+
+.already {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.already p {
+  margin-right: 10px;
+}
+
+.alreadyLink {
+  color: black;
+  font-weight: 500;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.buttons button {
+  padding-left: 180px;
+  padding-right: 180px;
+  position: relative;
+  left: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: none;
+  background: var(--background-color-hover);
+  color: white;
+  border-radius: 17px;
+  cursor: pointer;
+  top: 15px;
+  transition: background .5s;
+}
+
+.buttons button:hover {
+  background: var(--background-color);
+}
+
+@media (max-width: 1350px) {
+  .loginContainer {
+    margin-left: 325px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .loginContainer {
+    margin-left: 225px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .loginContainer {
+    margin-left: 125px;
+  }
+}
+
+@media (max-width: 880px) {
+  .loginContainer {
+    width: 550px;
+  }
+
+  .inputs {
+    margin-left: 65px;
+  }
+
+  .orP {
+    margin-left: 65px;
+  }
+
+  .withSth {
+    margin-left: 65px;
+  }
+}
+
+@media (max-width: 750px) {
+  .loginContainer {
+    width: 550px;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 650px) {
+  .loginContainer {
+    width: 450px;
+  }
+
+  .inputs {
+    margin-left: 15px;
+  }
+
+  .orP {
+    margin-left: 15px;
+  }
+
+  .withSth {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .loginContainer {
+    margin-left: 15px;
+  }
+}

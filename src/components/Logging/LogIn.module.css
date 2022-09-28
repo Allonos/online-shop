@@ -1,0 +1,274 @@
+.loginContainer {
+  margin-top: 100px;
+  width: 700px;
+  background-color: white;
+  color: black;
+  margin-left: 425px;
+  padding-bottom: 30px;
+  margin-bottom: 100px;
+  border-radius: 12px;
+}
+
+.header h1 {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.header p {
+  font-size: 13px;
+  color: #878787;
+  text-align: center;
+}
+
+.google {
+  font-size: 30px;
+  margin-left: 130px;
+}
+
+.facebook {
+  font-size: 30px;
+  color: #006aff;
+  margin-left: 130px;
+}
+
+.loginWithOther {
+  margin-top: 20px;
+}
+
+.withSth {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  padding-bottom: 7px;
+  width: 450px;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  transition: background-color .3s;
+}
+
+.withSth:hover {
+  background-color: rgba(236, 236, 236, 0.634);
+}
+
+.withSth p {
+  margin-left: 10px;
+}
+
+.orP {
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+  margin-left: 125px;
+}
+
+.or p {
+  text-align: center;
+}
+
+.firstOr {
+  width: 210px;
+  height: 2px;
+  background-color: #c7c7c7;
+  margin-right: 10px;
+}
+
+.secondOr {
+  width: 210px;
+  height: 2px;
+  background-color: #c7c7c7;
+  margin-left: 10px;
+}
+
+.inputs {
+  margin-top: 30px;
+}
+
+.firstInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7fcffa3;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.mail {
+  font-size: 30px;
+  color: #545454;
+  position: relative;
+}
+
+.lock {
+  font-size: 30px;
+  color: #545454;
+  position: relative;
+}
+
+.input {
+  width: 400px;
+  border-left: none;
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  background-color: transparent;
+  color: black;
+}
+
+.input::placeholder {
+  color: black;
+}
+
+.forgot {
+  position: relative;
+  left: 395px;
+  width: 170px;
+}
+
+.forgot .p {
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--almost-black-color);
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.buttons button {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: none;
+  background: var(--background-color-hover);
+  color: white;
+  border-radius: 17px;
+  cursor: pointer;
+  transition: background .5s;
+}
+
+.buttons button:hover {
+  background: var(--background-color);
+}
+
+.dontHave {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.dontHave p {
+  margin-right: 5px;
+}
+
+.dontHaveBtn {
+  font-weight: 500;
+  color: black;
+}
+
+@media (max-width: 1430px) {
+  .loginContainer {
+    margin-left: 325px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .loginContainer {
+    margin-left: 225px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .loginContainer {
+    margin-left: 125px;
+  }
+}
+
+@media (max-width: 850px) {
+  .loginContainer {
+    margin-left: 125px;
+    width: 550px;
+  }
+
+  .withSth {
+    margin-left: 40px;
+  }
+
+  .orP {
+    margin-left: 40px;
+  }
+
+  .firstInput {
+    margin-left: 45px;
+    margin-right: 50px;
+  }
+
+  .forgot {
+    left: 325px;
+  }
+}
+
+@media (max-width: 710px) {
+  .loginContainer {
+    width: 450px;
+  }
+
+  .withSth {
+    margin-left: 60px;
+    width: 300px;
+  }
+
+  .google {
+    margin-left: 60px;
+  }
+
+  .facebook {
+    margin-left: 60px;
+  }
+
+  .orP {
+    margin-left: 45px;
+  }
+
+  .firstOr {
+    width: 160px;
+  }
+
+  .secondOr {
+    width: 160px;
+  }
+
+  .forgot {
+    left: 230px;
+  }
+
+  .buttons button {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .loginContainer {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 525px) {
+  .loginContainer {
+    margin-left: 20px;
+  }
+}

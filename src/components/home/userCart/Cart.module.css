@@ -1,0 +1,279 @@
+.titles-list {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.titles-list li {
+  width: 170px;
+  margin-left: 5px;
+  margin-right: 5px;
+  list-style: none;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+
+.quntity {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  border: 1px solid var(--almost-black-color);
+  padding: 3px 10px 3px 10px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.minus {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.plus {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.photo {
+  position: relative;
+  right: 30px;
+}
+
+.photo img {
+  width: 150px;
+  height: 150px;
+}
+
+.name {
+  position: relative;
+  right: 80px;
+}
+
+.name p {
+  width: 160px;
+}
+
+.quntity {
+  position: relative;
+  right: 110px;
+}
+
+.price {
+  position: relative;
+  right: 35px;
+}
+
+.subTotal {
+  position: relative;
+  right: 45px;
+}
+
+.sumUp {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 43px;
+  border-top: 1px solid #093028;
+  padding-top: 15px;
+}
+
+.buy {
+  margin-left: 585px;
+  position: relative;
+  top: 10px;
+  padding: 5px 25px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background-color: var(--background-color);
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.buy:hover {
+  background-color: var(--background-color-hover);
+}
+
+.bought-container {
+  margin-left: 30px;
+  margin-top: 55px;
+  width: 500px;
+}
+
+.bought {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.container {
+  overflow-y: scroll;
+  height: 430px;
+}
+
+.go-home {
+  margin-right: 30px;
+  background-color: var(--background-color);
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  transition: background-color .5s;
+  text-decoration: none;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.go-home:hover {
+  background-color: var(--background-color-hover);
+}
+
+.see-history {
+  background-color: var(--background-color);
+  border: none;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  transition: background-color .5s;
+  text-decoration: none;
+}
+
+.see-history:hover {
+  background-color: var(--background-color-hover);
+}
+
+@media (max-width: 800px) {
+  .photo {
+    right: 25px;
+  }
+
+  .photo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .name {
+    margin-left: 90px;
+    margin-right: 10px;
+  }
+
+  .name p {
+    width: 140px;
+    font-size: 14px;
+  }
+
+  .price {
+    right: 40px;
+  }
+
+  .subTotal {
+    right: 35px;
+  }
+
+  .sumUp {
+    margin-right: 0;
+  }
+
+  .sumUpP {
+    position: relative;
+    right: 30px;
+  }
+
+  .quntity {
+    font-size: 14px;
+    margin-left: 25px;
+  }
+
+  .quntity p {
+    font-size: 14px;
+  }
+
+  .buy {
+    margin-left: 405px;
+  }
+}
+
+@media (max-width: 600px) {
+  .name p {
+    width: 100px;
+  }
+
+  .price p {
+    width: 50px;
+  }
+
+  .price {
+    right: 50px;
+  }
+
+  .subTotal p {
+    width: 50px;
+    position: relative;
+    right: 10px;
+  }
+
+  .titles-list {
+    margin-left: 50px;
+  }
+
+  .photo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
+  }
+
+  .name {
+    margin-left: 60px;
+  }
+
+  .name p {
+    font-size: 13px;
+  }
+
+  .quntity {
+    margin-left: 40px;
+  }
+
+  .quntity svg {
+    font-size: 13px;
+  }
+
+  .quntity p {
+    font-size: 13px;
+  }
+
+  .buy {
+    margin-left: 305px;
+  }
+
+  .bought-container {
+    margin-left: 0;
+  }
+
+  .bought {
+    margin-right: 100px;
+  }
+
+  .go-home {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .see-history {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

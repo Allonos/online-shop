@@ -93,7 +93,7 @@ function FirstItemDetail() {
           <div className={secondaryClasses['bought-container']}>
             <h1 className={secondaryClasses.bought}>You have successfully bought items.</h1>
             <Link to='/home' onClick={() => setIsBought(false)} className={secondaryClasses['go-home']}>Go to main page</Link>
-            <Link to='/history' onClick={() => setIsBought(false)} className={secondaryClasses['see-history']}>Go to history page</Link>
+            <button onClick={() => setIsBought(false)} className={secondaryClasses['see-history']}>Go back</button>
           </div>
         </Modal>
       )}

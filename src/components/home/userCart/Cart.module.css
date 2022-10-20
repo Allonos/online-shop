@@ -137,11 +137,31 @@
   background-color: var(--background-color-hover);
 }
 
+.go-home-cart {
+  /* margin-right: 30px; */
+  margin-left: 75px;
+  background-color: var(--background-color);
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  transition: background-color .5s;
+  text-decoration: none;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.go-home-cart:hover {
+  background-color: var(--background-color-hover);
+}
+
 .see-history {
   background-color: var(--background-color);
   border: none;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 75px;
+  padding-left: 75px;
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 15px;

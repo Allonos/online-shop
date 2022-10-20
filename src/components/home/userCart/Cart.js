@@ -87,8 +87,7 @@ function Cart(props) {
       {isBought && (
         <div className={classes['bought-container']}>
           <h1 className={classes.bought}>You have successfully bought items.</h1>
-          <Link to='/home' onClick={props.onClose} className={classes['go-home']}>Go to main page</Link>
-          <Link to='/history' onClick={props.onClose} className={classes['see-history']}>Go to history page</Link>
+          <Link to='/home' onClick={props.onClose} className={classes['go-home-cart']}>Go to main page</Link>
         </div>
       )}
     </Modal>

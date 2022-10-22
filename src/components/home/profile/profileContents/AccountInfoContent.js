@@ -4,7 +4,7 @@ import { IoPersonOutline } from 'react-icons/io5';
 
 import classes from '../Profile.module.css';
 
-function AccountInfoContent() {
+function AccountInfoContent({ emailEnteredInput }) {
   return (
     <div className={classes['account-info']}>
       <div className={classes['account-info-content']}>
@@ -15,7 +15,7 @@ function AccountInfoContent() {
           <div className={classes['info-container']}>
             <div className={classes['info-content']}>
               <p className={classes.label}>Email</p>
-              <p className={classes.input}>revaz@gmail.com</p>
+              <p className={classes.input}>{emailEnteredInput}</p>
             </div>
             <div className={classes['info-content']}>
               <p className={classes.label}>Password</p>

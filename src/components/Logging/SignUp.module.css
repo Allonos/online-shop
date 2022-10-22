@@ -1,5 +1,5 @@
 .loginContainer {
-  margin-top: 153px;
+  margin-top: 200px;
   width: 700px;
   background-color: white;
   color: black;
@@ -138,7 +138,7 @@
 .already {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .already p {

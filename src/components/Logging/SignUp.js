@@ -83,21 +83,6 @@ function SignUp() {
             <button type='submit'>Sign up</button>
           </div>
         </form>
-        <div className={classes.loginWithOther}>
-          <div className={classes.orP}>
-            <div className={classes.firstOr} />
-            <p>Or</p>
-            <div className={classes.secondOr} />
-          </div>
-          <div className={classes.withSth}>
-            <FcGoogle className={classes.google} />
-            <p>Sing up with Google</p>
-          </div>
-          <div className={classes.withSth}>
-            <ImFacebook className={classes.facebook} />
-            <p>Sign up with Facebook</p>
-          </div>
-        </div>
         <div className={classes.already}>
           <p>Already have an account?</p>
           <Link to='/log-in' className={classes.alreadyLink}>Log in</Link>

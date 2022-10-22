@@ -5,11 +5,11 @@ import LeftSidebar from '../Sidebar/LeftSidebar'
 import classes from '../Profile.module.css'
 import PasswordContent from './PasswordContent'
 
-function Password() {
+function Password({ passwordEnteredInput }) {
   return (
     <div className={classes.profile}>
       <LeftSidebar />
-      <PasswordContent />
+      <PasswordContent passwordEnteredInput={passwordEnteredInput} />
     </div>
   )
 }
